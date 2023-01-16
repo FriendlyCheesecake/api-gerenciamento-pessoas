@@ -5,6 +5,7 @@ import br.com.attornatus.pessoas.repository.EnderecoRepository;
 
 import java.util.List;
 
+@Service
 public class EnderecoService {
 
     private final EnderecoRepository enderecoRepository;
