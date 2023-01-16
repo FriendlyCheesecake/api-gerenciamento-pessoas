@@ -12,7 +12,7 @@ import java.util.List;
 @RequestMapping("/endereco")
 public class EnderecoController {
 
-    /*private final EnderecoService enderecoService;
+    private final EnderecoService enderecoService;
 
     public EnderecoController(EnderecoService enderecoService) {
         this.enderecoService = enderecoService;
@@ -21,6 +21,6 @@ public class EnderecoController {
     @GetMapping
     public List<Endereco> listar() {
         return enderecoService.listar();
-    }*/
+    }
 
 }
